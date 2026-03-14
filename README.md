@@ -1,31 +1,33 @@
 # Polish Language Datasets Collection
 
 ## Introduction
+This repository contains a **curated, manually verified metadata collection** of publicly available Polish language datasets for natural language processing (NLP) research. 
 
-This repository contains a curated metadata collection of publicly available Polish language datasets.
-
-It is designed to help NLP researchers, linguists, and students quickly locate resources for various tasks such as text classification, named entity recognition, sentiment analysis, machine translation, question answering, and other Polish NLP research tasks.
+It is designed to serve as a centralized resource for NLP researchers, linguists, and students, enabling quick and efficient retrieval of Polish language resources for core tasks including:
+- Text classification
+- Named entity recognition
+- Sentiment analysis
+- Machine translation
+- Question answering
+- Other Polish NLP research tasks
 
 ## Key Metadata Fields
-
-- **Dataset Name**: The official name of the resource.
-- **Verified Dataset URL**: Valid dataset address link (manually verified for accessibility).
-- **Dataset URL from Citing/Cited Papers**: Dataset links referenced in related academic papers (may include archived or alternative sources).
+Each dataset entry is annotated with structured, research-oriented metadata to ensure clarity and usability:
+- **Dataset Name**: The official, unique name of the resource.
+- **Verified Dataset URL**: Valid, manually verified download link (checked for accessibility).
+- **Dataset URL from Citing/Cited Papers**: Alternative dataset links referenced in academic publications (including archived or backup sources).
 - **Modality**: The type of data (e.g., Text, Speech, Multimodal).
 - **Tasks**: Applicable NLP tasks (comma-separated for multi-task support).
-- **Dataset Description**: A detailed summary of the dataset's content, scale, and collection method.
+- **Dataset Description**: A detailed summary of the dataset's content scope, data scale, collection method, and annotation details.
 
 ## Data Access
+The complete metadata collection of Polish language datasets is provided in a structured CSV file:
+- Core File: `Polish-Language-Dataset-Collection.csv`
 
-The complete dataset collection is provided in:
-
-- `Polish-Language-Dataset-Collection.csv`
-
-Tip: Click on the CSV file above to view the full, searchable table directly in GitHub.
+💡 **Tip**: Click on the CSV file above to view the full, searchable table directly in GitHub. For local use, download the file and open it with UTF-8 encoding to preserve Polish special characters.
 
 ## Data Preview
-
-Below is a preview of the first 5 datasets included in the collection:
+Below is a preview of the first 5 high-quality datasets included in the collection (full list available in the CSV file):
 
 | Dataset Name | Verified Dataset URL | Dataset URL from Citing/Cited Papers | Modality | Tasks | Dataset Description |
 |---|---|---|---|---|---|
@@ -37,9 +39,18 @@ Below is a preview of the first 5 datasets included in the collection:
 
 *(Please download the `Polish-Language-Dataset-Collection.csv` file to view the complete list of datasets.)*
 
-## Notes
+## Important Notes
+### URL Validity
+- "Verified Dataset URL" is updated quarterly to ensure accessibility.
+- If a verified link is invalid, check the "Dataset URL from Citing/Cited Papers" field for alternative access paths (e.g., archived versions or paper-referenced links).
 
-- **URL Validity**: "Verified Dataset URL" is updated quarterly; if a link is invalid, check "Dataset URL from Citing/Cited Papers" for alternative access paths.
-- **Encoding Requirement**: The CSV file uses UTF-8 encoding to ensure correct display of Polish special characters (ą, ć, ę, ł, ń, ó, ś, ź, ż).
-- **Usage Compliance**: This metadata collection provides links to external datasets—always comply with the original dataset’s license terms (e.g., non-commercial use restrictions) when downloading and using the actual data.
-- **Manual Verification**: A small number of entries may require additional manual checks (e.g., archived links); refer to the dataset’s original source for the latest updates.
+### Encoding Requirement
+The CSV file uses **UTF-8 encoding** to ensure correct display of Polish special characters (ą, ć, ę, ł, ń, ó, ś, ź, ż). Always open the file with UTF-8 encoding to avoid garbled text.
+
+### Usage Compliance
+This repository only provides metadata and links to external datasets. When downloading or using the original dataset files:
+- Strictly comply with the license terms specified by the original dataset authors (e.g., non-commercial use restrictions, attribution requirements).
+- Cite the original dataset publications when using the data in research.
+
+### Manual Verification
+A small number of entries may require additional manual verification (e.g., archived links or region-restricted resources). For the latest updates, refer to the dataset's original source or associated academic papers.
